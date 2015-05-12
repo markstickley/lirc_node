@@ -7,6 +7,7 @@ test:
 		--require test/common.js \
 		--reporter $(REPORTER) \
 		--growl \
+		# --grep "notify each instance"\
 		$(TESTS)
 
 .PHONY: test bench
